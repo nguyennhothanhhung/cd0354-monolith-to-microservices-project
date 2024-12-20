@@ -10,6 +10,7 @@ RUN npm ci
 # Bundle app source
 
 COPY . .
+FROM node:14
 RUN ionic build
 ## Run 
 FROM nginx:alpine
