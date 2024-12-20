@@ -6,8 +6,7 @@ services:
   - docker
 
 # Pre-testing installs
-before_script:
-  - npm install -g @ionic/cli
+before_script: []
 
 script:
   - docker --version # print the version for logging
