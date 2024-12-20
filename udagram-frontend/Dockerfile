@@ -1,5 +1,5 @@
 ## Build
-FROM node:14 AS ionic
+FROM node:16 AS ionic
 
 # Create app directory
 WORKDIR /usr/src/app
